@@ -3,13 +3,17 @@ import java.util.Scanner;
 
 public class PairNunmber {
     public static void pair1(int number[]) {
+        int tp=0;
         for(int i=0;i<number.length;i++){
             int curr=number[i];
             for(int j=i+1; j<number.length;j++){
                 System.out.print("("+curr+","+number[j]+")"+" ");
+                tp++;
+
             }
             System.out.println();
         }
+        System.out.println("Total Pair is: "+tp);
     }
     public static void main(String[] args) {
         try(Scanner sc=new Scanner(System.in)){
