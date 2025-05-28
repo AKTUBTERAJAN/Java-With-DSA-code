@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class LargestNumber1{
-    public static int LargestNumber1(int number[]) {
+    public static int LargestNumber(int number[]) {
         int largest=Integer.MIN_VALUE;//
 
         for(int i=0; i<number.length;i++){
@@ -22,7 +22,7 @@ public class LargestNumber1{
             for(int i=0; i<size; i++){
                 number[i]=sc.nextInt();
             }
-        System.out.println("Largest Value is: "+LargestNumber1(number));
+        System.out.println("Largest Value is: "+LargestNumber(number));
 
         }
     }
