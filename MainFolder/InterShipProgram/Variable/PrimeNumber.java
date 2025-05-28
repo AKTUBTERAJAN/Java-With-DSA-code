@@ -7,10 +7,10 @@ public class PrimeNumber {
             System.out.print("Enter The Number: ");
             int n=sc.nextInt();
             if(n/2==0){
-                System.out.println(n+" is not a Prime Numnber");
+                System.out.println(n+" is even Numnber");
             }
             else{
-                System.out.println(n+" is a Prime Number");
+                System.out.println(n+" is a odd Number");
             }
         }
     }
