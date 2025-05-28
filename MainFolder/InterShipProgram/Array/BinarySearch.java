@@ -8,17 +8,25 @@ public class BinarySearch {
                 return mid;
             }
             if(number[mid]<key){
-                start=mid+1;
+                start=mid+1; // left side
             }
             else{
-                end=mid-1;
+                end=mid-1; // Right side
             }
         }
         return -1;
     }
     public static void main(String[] args) {
         int number[]={2,4,6,8,10,12,14,16};
-        int key=20;
-        System.out.println(key+" is The Found at index Number: "+BinarySearch1(number, key));
+        //int number[]={4,5,6,7,0,1,2};
+        int key=10;
+         int result= BinarySearch1(number, key);
+            if(result== -1){
+                System.out.print(key+" not Found in the Array");
+            }
+            else{
+                System.out.println(key+" is Found in the Array at Index: "+result);
+            }
+
     }
 }
