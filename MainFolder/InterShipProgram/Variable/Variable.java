@@ -10,7 +10,7 @@ public class Variable {
         System.out.println(b);
 //take string inpute
 
-        String name = "RAJAN KUSHWAJA";
+        java.lang.String name = "RAJAN KUSHWAJA";
         System.out.println(name);
 
 
