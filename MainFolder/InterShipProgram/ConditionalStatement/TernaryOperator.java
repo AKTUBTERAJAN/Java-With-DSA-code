@@ -7,7 +7,7 @@ public class TernaryOperator {
             System.out.print("Enter The Number: ");
             float number = sc.nextFloat();
             // Using Ternary Operator;
-            String type=(number%2.0==0)?number + " is a Even Number":number + " is a Odd Number";
+            java.lang.String type=(number%2.0==0)?number + " is a Even Number":number + " is a Odd Number";
             System.out.println(type);
     
         }

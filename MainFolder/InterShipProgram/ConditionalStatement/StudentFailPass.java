@@ -6,7 +6,7 @@ public class StudentFailPass {
         try(Scanner sc = new Scanner(System.in)){
             System.out.print("Enter the Number of Subject: ");
             float mark = sc.nextFloat();
-            String status = (mark>33)?"Student is Pass":"Student is Fail";
+            java.lang.String status = (mark>33)?"Student is Pass":"Student is Fail";
             System.out.println(status);
         }
     }
