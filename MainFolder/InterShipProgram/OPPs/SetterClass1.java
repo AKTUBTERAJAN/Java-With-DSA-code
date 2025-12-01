@@ -1,4 +1,4 @@
-public class Class1{
+public class SetterClass1{
     public static void main(String args[]){
         Pen p1=new Pen(); // create a pen object 
         p1.setcolor("Blue");
