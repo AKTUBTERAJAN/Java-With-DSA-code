@@ -1,4 +1,4 @@
-public class N_Quean {
+public class N_Queens_ways {
     public static boolean  issafe(char boar[][],int row,int col){
         //vertical up
         for(int i=row-1;i>=0;i--){
@@ -25,7 +25,8 @@ public class N_Quean {
     public static void nQueens(char boar[][],int row){
        //base case
        if(row==boar.length){
-            printBoard(boar);
+            //printBoard(boar);
+            cout ++;
             return;
        }
        //coloum loop
@@ -46,8 +47,11 @@ public class N_Quean {
             System.out.println();
         }
     }
+
+    static int  cout=0;
+
     public static void main(String [] args){
-        int n=4;
+        int n=2;
         char boar[][]=new char[n][n];
 
         //initilize
@@ -57,6 +61,7 @@ public class N_Quean {
             }
         }
         nQueens(boar,0);
+        System.out.println("total ways to solved n queen = "+cout);
     }
-    
 }
+ 

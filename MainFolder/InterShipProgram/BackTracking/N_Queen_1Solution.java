@@ -1,5 +1,5 @@
-public class N_Quean {
-    public static boolean  issafe(char boar[][],int row,int col){
+public class N_Queen_1Solution {
+     public static boolean  issafe(char boar[][],int row,int col){
         //vertical up
         for(int i=row-1;i>=0;i--){
             if(boar[i][col]=='Q'){
@@ -22,20 +22,24 @@ public class N_Quean {
         
         return true;
     }
-    public static void nQueens(char boar[][],int row){
+    public static boolean nQueens(char boar[][],int row){
        //base case
        if(row==boar.length){
-            printBoard(boar);
-            return;
+            //printBoard(boar);
+            cout ++;
+            return true;
        }
        //coloum loop
         for(int j=0;j<boar.length;j++){
             if(issafe(boar,row,j)){
                 boar[row][j]='Q';
-                nQueens(boar, row+1);//function call
+                if(nQueens(boar, row+1)){
+                    return true;
+                }
                 boar[row][j]='x';//backtracking 
             }
         }
+        return false;
     }
     public static void printBoard(char boar[][]) {
         System.out.println("----------- chess board -------------");
@@ -46,8 +50,11 @@ public class N_Quean {
             System.out.println();
         }
     }
+
+    static int  cout=0;
+
     public static void main(String [] args){
-        int n=4;
+        int n=2;
         char boar[][]=new char[n][n];
 
         //initilize
@@ -56,7 +63,13 @@ public class N_Quean {
                 boar[i][j]='x';
             }
         }
-        nQueens(boar,0);
+        if(nQueens(boar,0)){
+            System.out.println("Solution is possible");
+            printBoard(boar);
+        }else{
+            System.out.println("Solution is not possible");
+
+        }
+       // System.out.println("total ways to solved n queen = "+cout);
     }
-    
 }
