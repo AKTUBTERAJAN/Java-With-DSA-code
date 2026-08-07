@@ -8,6 +8,30 @@ it is popular .
 free and open source
 fast and scalable
 ===============
+
+1-Patterns ☑️
+2-Variable ☑️
+3-Operator ☑️
+4-Conditional Statements ☑️
+5-Loops ☑️
+6-Functions ☑️
+7-Arrays ☑️
+8-2D Arrays ☑️
+9-String ☑️
+10-Sorting ☑️
+11-OOPs ☑️
+12-Recursion ☑️
+13-Time and Space Complexity ☑️
+14-BackTracking ☑️
+15-ArrayList ☑️
+16-LinkedList ☑️
+17-Stacks ☑️
+18-Queue ☑️
+19-Deque ☑️
+20-Hashing ☑️
+21-Hashet ☑️
+22-Linked HashSet ☑️
+
 Track the history
 colloborate
 **********************************************************************************************
