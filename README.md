@@ -9,28 +9,28 @@ free and open source
 fast and scalable
 ===============
 
-1-Patterns ☑️
-2-Variable ☑️
-3-Operator ☑️
-4-Conditional Statements ☑️
-5-Loops ☑️
-6-Functions ☑️
-7-Arrays ☑️
-8-2D Arrays ☑️
-9-String ☑️
-10-Sorting ☑️
-11-OOPs ☑️
-12-Recursion ☑️
-13-Time and Space Complexity ☑️
-14-BackTracking ☑️
-15-ArrayList ☑️
-16-LinkedList ☑️
-17-Stacks ☑️
-18-Queue ☑️
-19-Deque ☑️
-20-Hashing ☑️
-21-Hashet ☑️
-22-Linked HashSet ☑️
+1-Patterns ☑️ <br/>
+2-Variable ☑️ <br/>
+3-Operator ☑️ <br/>
+4-Conditional Statements ☑️ <br/>
+5-Loops ☑️ <br/>
+6-Functions ☑️ <br/>
+7-Arrays ☑️ <br/>
+8-2D Arrays ☑️ <br/>
+9-String ☑️ <br/>
+10-Sorting ☑️ <br/>
+11-OOPs ☑️ <br/>
+12-Recursion ☑️ <br/>
+13-Time and Space Complexity ☑️ <br/>
+14-BackTracking ☑️ <br/>
+15-ArrayList ☑️ <br/>
+16-LinkedList ☑️ <br/>
+17-Stacks ☑️ <br/>
+18-Queue ☑️ <br/>
+19-Deque ☑️ <br/>
+20-Hashing ☑️ <br/>
+21-Hashet ☑️ <br/>
+22-Linked HashSet ☑️ <br/>
 
 Track the history
 colloborate
